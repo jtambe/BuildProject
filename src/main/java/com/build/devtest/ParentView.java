@@ -7,8 +7,8 @@ public class ParentView extends Person {
 	private String parentId;
 	private List<ChildView> childViews;
 
-	public ParentView(String firstName, String lastName, int age,
-			String parentId, List<ChildView> childViews) {
+	public ParentView(String firstName, String lastName, int age, String parentId, List<ChildView> childViews) 
+	{
 		super(firstName, lastName, age);
 		this.parentId = parentId;
 		this.childViews = childViews;
